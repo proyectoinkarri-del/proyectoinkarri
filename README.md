@@ -1,2 +1,2 @@
 # proyectoinkarri
-pagina oficiaL Proyecto inkarri y Amigos
+pagina oficial Proyecto inkarri y Amigos

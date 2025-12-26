@@ -2,45 +2,74 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Proyecto Inkarri</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Proyecto Inkarri | Página oficial</title>
-
-    <!-- SEO básico -->
-    <meta name="description" content="Página oficial de Proyecto Inkarri y Amigos. Cultura, diseño y creación con identidad.">
-    <meta name="keywords" content="Proyecto Inkarri, Inkarri, diseño, cultura, joyería, arte">
-    <meta name="author" content="Proyecto Inkarri">
-
-    <!-- Canonical (MUY importante para SSL y SEO) -->
-    <link rel="canonical" href="https://proyectoinkarri.com/">
-
-    <!-- Estilos -->
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            color: #111111;
+            background-color: #f4f4f4;
+            color: #333;
         }
 
         header {
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
             padding: 40px 20px;
-            border-bottom: 1px solid #e5e5e5;
+            max-width: 1100px;
+            margin: auto;
         }
 
-        h1 {
-            margin: 0;
-            font-size: 2.2rem;
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
 
-        p {
-            margin-top: 10px;
-            font-size: 1.1rem;
+        /* SECCIÓN LINKS */
+        .links a {
+            display: block;
+            margin: 10px 0;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
         }
 
-        main {
-            padding: 40px 20px;
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* SECCIÓN IMÁGENES */
+        .imagenes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .imagenes img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        /* SECCIÓN README */
+        .readme {
+            background: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #fff;
         }
     </style>
 </head>
@@ -49,12 +78,50 @@
 
 <header>
     <h1>Proyecto Inkarri</h1>
-    <p>Página oficial · Proyecto Inkarri y Amigos</p>
+    <p>Plataforma base del proyecto</p>
 </header>
 
-<main>
-    <p>Próximamente contenido.</p>
-</main>
+<!-- SECCIÓN 1: LINKS -->
+<section class="links">
+    <h2>Enlaces del Proyecto</h2>
+
+    <!-- EDITA ESTOS LINKS -->
+    <a href="https://example.com" target="_blank">Link 1 – Página principal</a>
+    <a href="https://example.com" target="_blank">Link 2 – Documentación</a>
+    <a href="https://example.com" target="_blank">Link 3 – Repositorio</a>
+    <a href="https://example.com" target="_blank">Link 4 – Contacto</a>
+</section>
+
+<!-- SECCIÓN 2: IMÁGENES -->
+<section>
+    <h2>Galería Visual</h2>
+
+    <div class="imagenes">
+        <!-- CAMBIA LAS IMÁGENES CUANDO QUIERAS -->
+        <img src="images/img1.jpg" alt="Proyecto Inkarri imagen 1">
+        <img src="images/img2.jpg" alt="Proyecto Inkarri imagen 2">
+        <img src="images/img3.jpg" alt="Proyecto Inkarri imagen 3">
+        <img src="images/img4.jpg" alt="Proyecto Inkarri imagen 4">
+    </div>
+</section>
+
+<!-- SECCIÓN 3: README -->
+<section>
+    <h2>README</h2>
+
+    <div class="readme">
+        <p><strong>Proyecto Inkarri</strong> es una iniciativa enfocada en el desarrollo cultural, simbólico y creativo.</p>
+
+        <p>Este sitio funciona como punto de entrada al proyecto, mostrando enlaces clave, material visual y documentación básica.</p>
+
+        <p><strong>Estado:</strong> En desarrollo</p>
+        <p><strong>Autor:</strong> Proyecto Inkarri</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Proyecto Inkarri
+</footer>
 
 </body>
 </html>
